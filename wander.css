@@ -1,20 +1,19 @@
 ::selection {
   background: indigo;
-  color: pink;
+  color: gold;
 }
 
 :root {
-  background: silver;
-  color: #212;
+  background: gold;
+  color: darkviolet;
 }
 
 :any-link {
-  color: indigo;
+  color: inherit;
 }
 
 @media (prefers-contrast: more) {
   :root {
-    background: gainsboro;
-    color: #201;
+    color: indigo;
   }
 }
